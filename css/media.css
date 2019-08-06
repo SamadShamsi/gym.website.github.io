@@ -1,0 +1,874 @@
+@media(min-width:768px) and (max-width:991px){
+    
+    header #navigation nav .navbar-brand{
+    background: #323232;
+    padding: 10px 40px;
+    position: absolute;
+    transform: skewX(-35deg);
+   
+}
+    
+    
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+    padding: 0 10px;
+    color: #f1f1f1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 39px;
+    font-size: 13px;
+    position: relative;
+}
+    header #navigation nav .navbar-brand{
+        padding: 7px 30px;
+    }
+    
+    
+    header #navigation nav .navbar-brand img{
+        width: 110px;
+    }
+    
+    
+    #team  .team-members .overlay{
+    position: absolute;
+    width:88%;
+    height: 90%;
+    background: rgb(226, 62, 56,0.5);
+    top: 5%;
+    left: -6%;
+    opacity: 0;
+    transition: all linear 0.3s;
+    
+}
+    #team  .team-hover:hover .overlay{
+    opacity: 1;
+    left: 6%;
+    }
+    
+    
+    #team  .team-members .overlay:after{
+    position: absolute;
+    content: '';
+   border: 6px solid rgba(255, 255, 255,0.5);
+    width: 105%;
+    height: 105%;
+    top: -2%;
+    left: -3%;
+    
+    
+}
+    
+    #team  .team-members:after{
+    position: absolute;
+    content: '';
+   border: 7px solid rgba(221, 221, 221,0.5);
+    width:0%;
+    height: 100%;
+    top: 1px;
+    left: -1px;
+    opacity: 0;
+    transition: all linear 0.3s;      
+}
+    
+    #team .team-hover:hover .team-members:after{
+    opacity: 1;
+    width: 100%:
+    
+    }
+    
+    
+    #team .content .heading-member{
+        text-align: center;
+       
+    }
+    
+    #team .content .heading-member h5, h6{
+        padding-right: 0px;
+    }
+    
+    
+    #team .content-box{
+    border: 1px solid #ddd;
+    width: 210px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    opacity: 0;
+    margin-left: 0px;
+    margin-top: -69px;
+    transition: all linear 0.3s;
+}
+    
+    #team .team-hover:hover .content-box{
+    opacity: 1;
+    padding-top: 65px;
+    }
+    
+    
+    
+    
+    
+    #testimonial .info{
+        left: 15%;
+    }
+    
+    #testimonial .info h5{
+        padding-bottom: 10px;
+    }
+    #testimonial .info h6{
+        padding-bottom: 10px;
+    }
+    
+    #testimonial p{
+        padding-top: 10px;
+    }
+    
+    #counter-plugin ul li{
+        padding: 0 32px;
+    }
+    
+    #counter-plugin p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+   
+    
+    
+
+    
+    #info-about-us .contact-us i.ph{
+        top: 108px;
+    }
+    
+    #info-about-us .contact-us i.msg{
+        top: 137px;
+    }
+    
+    #info-about-us .contact-us i{
+        font-size: 12px;
+    }
+    
+    #info-about-us .tw-feed p{
+        padding-bottom: 20px;
+    }
+    #info-about-us .tw-feed i.tw-2{
+        top: 74%;
+    }
+    #info-about-us .tw-feed i.tw-1{
+        top: 36%;
+    }
+    
+    #banner .border-1::after{
+        left: -3%;
+        top: 47%;
+    }
+    
+     #banner .border-1::before{
+        right: -3%;
+        top: 47%;
+    }
+    
+    
+    #banner .border-2::after{
+        left: -3%;
+        top: 47%;
+    }
+    
+    #banner .border-2::before{
+        right: -3%;
+        top: 47%;
+    }
+    
+    #banner .border-3::after{
+        left: -3%;
+        bottom: 18%;
+        width: 21%;
+    }
+    
+    #banner .border-3::before{
+        right: -3%;
+        bottom: 18%;
+        width: 21%;
+    }
+    
+    #sponsors .next{
+        right: -1%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    
+    header #navigation nav .navbar-brand{
+    background: #323232;
+    padding: 13px 34px;
+    position: relative;
+    transform: skewX(-35deg);
+        top: -11px;
+   
+}
+    header #navigation nav button {
+        background: white;
+        right: 0;
+        z-index: 1;
+        position: absolute;
+        font-size: 16px;
+        top: 8px;
+        transition: all linear 0.3s;
+    }
+    
+    header #navigation nav button:hover{
+        transform: scale(1.1);
+    }
+ 
+    
+    
+    
+    header #navigation{
+        width: 100%;
+        height: 50px;
+        background: rgba(62, 4, 4,0.8);
+    }
+   
+   
+    
+    header #navigation nav .navbar-brand img{
+        width: 120px;
+    }
+    
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background: rgba(62, 4, 4,0.8);
+        line-height: 36px;
+    }
+    
+    
+    #counter-plugin p{
+    color: white;
+     font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+   
+   
+    line-height: 30px;;
+    
+   
+    
+    
+    
+    
+}
+    
+    #team  .team-members .overlay{
+    position: absolute;
+    width:88%;
+    height: 90%;
+    background: rgb(226, 62, 56,0.5);
+    top: 5%;
+    left: -6%;
+    opacity: 0;
+    transition: all linear 0.3s;
+    
+}
+    #team  .team-hover:hover .overlay{
+    opacity: 1;
+    left: 6%;
+    }
+    
+    
+    #team  .team-members .overlay:after{
+    position: absolute;
+    content: '';
+   border: 6px solid rgba(255, 255, 255,0.5);
+    width: 105%;
+    height: 105%;
+    top: -2%;
+    left: -3%;
+     
+    
+    
+}
+    
+    #team  .team-members:after{
+    position: absolute;
+    content: '';
+  border: 7px solid rgba(221, 221, 221,0.5);
+    width:100%;
+    height: 100%;
+    top: 1px;
+    left: -1px;
+    opacity: 0;
+    transition: all linear 0.3s; 
+        
+}
+    
+    #team .team-hover:hover .team-members:after{
+    opacity: 1;
+    width: 100%:
+    
+    }
+    
+    
+     #team .content .heading-member{
+        text-align: center;
+       
+    }
+    
+    #team .content .heading-member h5, h6{
+        padding-right: 0px;
+    }
+    
+    
+    
+    #team .content-box{
+    border: 1px solid #ddd;
+    width: 240px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 13px;
+    opacity: 0;
+    margin-left: 0px;
+    margin-top: -70px;
+    transition: all linear 0.3s;
+}
+    
+    #team .team-hover:hover .content-box{
+    opacity: 1;
+    padding-top: 67px;
+    }
+    
+    
+    #membership h3{
+        font-size: 12px;
+    }
+    
+    #membership .price-1 h2 span, #membership .price-2 h2 span, #membership .price-3 h2 span{
+        font-size: 30px;
+    }
+    
+    #membership .price-1, .price-2, h2{
+        font-size: 25px;
+    }
+    
+    #membership ul li{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    
+    #membership a{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: -17px;
+    }
+    
+    #membership a.join_3{
+         margin-top: -36px;
+    }
+    
+    #counter-plugin ul li{
+        padding: 0 14px;
+        font-size: 30px;
+    }
+    
+   
+    
+    
+   
+    
+    #info-about-us .contact-us i{
+        font-size: 12px;
+    }
+    #info-about-us .contact-us i.msg{
+        top: 175px;
+        font-size: 12px;
+    }
+    
+    
+     #banner .border-1::after{
+        left: -3%;
+        top: 47%;
+         width: 30%;
+    }
+    
+     #banner .border-1::before{
+        right: -3%;
+        top: 47%;
+         width: 30%;
+    }
+    
+    
+    #banner .border-2::after{
+        left: -3%;
+        top: 47%;
+    }
+    
+    #banner .border-2::before{
+        right: -3%;
+        top: 47%;
+    }
+    
+    #banner .border-3::after{
+        left: -3%;
+        bottom: 18%;
+        width: 19%;
+    }
+    
+    #banner .border-3::before{
+        right: -3%;
+        bottom: 18%;
+        width: 19%;
+    }
+    
+    
+    
+    
+    
+}
+
+@media (min-width:320px) and (max-width:575px){
+    
+    header #navigation nav .navbar-brand{
+    background: #323232;
+    padding: 8px 21px;
+    position: relative;
+    transform: skewX(-35deg);
+        top: -8px;
+   
+}
+    header #navigation nav button {
+        background: white;
+        right: 0;
+        z-index: 1;
+        position: absolute;
+        font-size: 15px;
+        top: 3px;
+        transition: all linear 0.3s;
+    }
+    
+    header #navigation nav button:hover{
+        transform: scale(1.1);
+    }
+    
+    header #navigation{
+        width: 100%;
+        height: 40px;
+        background: rgba(62, 4, 4,0.8);
+    }
+   
+    header #navigation nav .navbar-brand img{
+        width: 100px;
+    }
+    
+    
+    
+    header #navigation nav .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background: rgba(62, 4, 4,0.8);
+        line-height: 34px;
+        font-size: 13px;
+    }
+    
+    
+    
+    #team  .team-members .overlay{
+    position: absolute;
+    width:82%;
+    height: 90%;
+    background: rgb(226, 62, 56,0.5);
+    top: 5%;
+    left: -6%;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+#team  .team-members .overlay:after{
+    position: absolute;
+    content: '';
+   border: 6px solid rgba(255, 255, 255,0.5);
+    width: 105%;
+    height: 105%;
+    top: -2%;
+    left: -3%;
+    
+}
+#team  .team-members:after{
+    position: absolute;
+    content: '';
+   border: 6px solid rgba(221, 221, 221,0.5);
+    width:90%;
+    height: 100%;
+    top: 1px;
+    left: 4px;
+    opacity: 0;
+    transition: all linear 0.3s;
+   
+}
+#team .content-box{
+    border: 1px solid #ddd;
+    width: 268px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    opacity: 0;
+    margin-left: 1px;
+    margin-top: -68px;
+    transition: all linear 0.3s;
+}
+    
+    #team  .team-hover:hover .overlay{
+        opacity: 1;
+        left: 6%;
+    }
+    #team .team-hover:hover .team-members:after{
+        opacity: 1;
+        width: 100%:
+    
+    }
+    
+    #team .team-hover:hover .content-box{
+        opacity: 1;
+        padding-top: 67px;
+    }
+    
+    
+    
+    
+    #team .content .heading-member{
+        text-align: center;
+   
+    }
+    #team .content .heading-member h5,h6{
+        padding-right: 0px;
+    }
+    
+    #team .content p{
+        padding-bottom: 5px;
+    }
+    
+    
+    #testimonial .info{
+        left: 37%;
+    }
+    
+    #testimonial p{
+        font-size: 11px;
+    }
+    
+    
+    #membership h3{
+        font-size: 14px;
+        line-height: 40px;
+    }
+    
+    #membership .price-1 h2 span, #membership .price-2 h2 span, #membership .price-3 h2 span{
+        line-height: 70px;
+        font-size: 43px;
+    }
+    
+    #membership .price-1, .price-2, h2{
+        font-size: 25px;
+    }
+    
+    #membership ul li{
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    #membership ul{
+        padding-top: 12px;
+        padding-bottom: 15px;
+    }
+    
+    #membership a{
+        font-size: 15px;
+        line-height: 32px;
+    }
+    
+    
+    #counter-plugin span{
+        font-size: 20px;
+        line-height: 0;
+        
+    }
+    
+    #counter-plugin p{
+        font-size: 12px;
+        line-height: 17px;
+        
+    }
+    
+    #our-classes .activities img{
+        width: 22px;
+    }
+    
+    #our-classes .menu .nav{
+        display: block;
+        text-align: center;
+       
+    }
+   
+    #our-classes .menu .nav .nav-item{
+       width: 100%;
+    }
+    
+    #our-classes .content .tab-content ul li{
+        width: 33%;
+    }
+    
+   
+    #our-classes .content .tab-content ul li .text h3{
+        font-size: 14px;
+    }
+    
+    #our-classes .content .tab-content ul li .text p{
+        font-size: 13px;
+    }
+       
+    #our-classes .content .tab-content ul li .text i{
+        font-size: 35px;
+    }
+    
+    #info-about-us .contact-us i.ph{
+        top: 108px;
+    }
+    
+    #info-about-us .contact-us i.msg{
+        top: 137px;
+        font-size: 12px;
+    }
+    
+    
+    #info-about-us .contact-us i.loc{
+        font-size: 12px;
+    }
+    #info-about-us .contact-us i.ph{
+        font-size: 12px;
+    }
+    
+    
+    #info-about-us .contact-us ul li a i{
+        font-size: 13px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    
+    #end-part p{
+        font-size: 11px;
+    }
+    
+    #end-part p a{
+        font-size: 11px;
+    }
+    
+    #info-about-us .open-hours ul li{
+        font-size: 11px;
+    }
+    
+    #info-about-us .tw-feed p{
+        font-size: 11px;
+    }
+    
+    #info-about-us .tw-feed i.tw-1{
+        top: 36%;
+        font-size: 14px;
+        left: 0%;
+    }
+    
+    #info-about-us .tw-feed i.tw-2{
+        top: 73%;
+        font-size: 14px;
+        left: 0;
+    }
+    
+    #sponsors .prev{
+        font-size: 12px;
+        left: 1%; 
+    }
+    
+    #sponsors .next{
+        font-size: 12px;
+        right: 1%;
+        z-index: 111;
+    }
+    
+    
+    
+       #banner .border-1::after{
+        left: -3%;
+        top: 45%;
+         width: 20%;
+    }
+    
+     #banner .border-1::before{
+        right: -3%;
+        top: 45%;
+         width: 20%;
+    }
+    
+    
+    #banner .border-2::after{
+        left: -3%;
+        top: 45%;
+        height: 39%;
+    }
+    
+    #banner .border-2::before{
+        right: -3%;
+        top: 45%;
+        height: 39%;
+    }
+    
+    #banner .border-3::after{
+        left: -3%;
+        bottom: 16%;
+        width: 8%;
+    }
+    
+    #banner .border-3::before{
+        right: -3%;
+        bottom: 16%;
+        width: 8%;
+    }
+    
+    #banner ul li a{
+        font-size: 13px;
+        line-height: 30px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
+    #banner p{
+        font-size: 12px;
+    }
+    
+    #banner h1{
+        font-size: 54px;
+    }
+    
+    #banner h2{
+        font-size: 28px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    #counter-plugin ul li{
+        padding: 0 56px;
+        padding-top: 32px;
+        padding-bottom: 30px;
+    }
+    
+    #our-classes .menu ul li{
+        padding-left: 39.8px;
+        padding-right: 40px;
+    }
+    
+    #info-about-us .open-hours .time{
+        padding-left: 15px;
+    }
+    
+    #info-about-us .open-hours ul li{
+        font-size: 12px;
+    }
+    
+    #info-about-us .tw-feed i.tw-2{
+        top: 72%;
+    }
+    
+    #info-about-us .tw-feed i.tw-1{
+        top: 29%;
+    }
+    
+    #info-about-us .contact-us i.msg{
+        top: 175px;
+    }
+    
+    
+    #team  .team-members .overlay{
+    position: absolute;
+    width:82%;
+    height: 90%;
+    background: rgb(226, 62, 56,0.5);
+    top: 5%;
+    left: -6%;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+#team  .team-members .overlay:after{
+    position: absolute;
+    content: '';
+   border: 7px solid rgba(255, 255, 255,0.5);
+    width: 105%;
+    height: 105%;
+    top: -2%;
+    left: -3%;
+    
+}
+    #team .content .heading-member{
+        text-align: center;
+   
+    }
+    
+    #team .content .heading-member h5,h6{
+        padding-right: 0px;
+    }
+
+    
+    #team  .team-hover:hover .overlay{
+    opacity: 1;
+    left: 6%;
+}
+#team  .team-hover:hover .overlay ul{
+    right: 7px;
+    opacity: 1;
+    visibility: visible;
+}
+    
+#team  .team-members:after{
+    position: absolute;
+    content: '';
+   border: 6px solid rgba(221, 221, 221,0.5);
+    width:90%;
+    height: 100%;
+    top: 1px;
+    left: 4px;
+    opacity: 0;
+    transition: all linear 0.3s;
+   
+}
+#team .content-box{
+    border: 1px solid #ddd;
+    width: 268px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    opacity: 0;
+    margin-left: 1px;
+    margin-top: -70px;
+    transition: all linear 0.3s;
+}
+    
+    
+    
+    #team .team-hover:hover .team-members:after{
+    opacity: 1;
+
+    
+}
+
+
+#team .team-hover:hover .team-members{
+    margin-top: -30px;
+}
+#team .team-hover:hover .content-box{
+    opacity: 1;
+    padding-top: 65px;
+}
+    
+    #counter-plugin p{
+        font-size: 20px;
+    }
+}
